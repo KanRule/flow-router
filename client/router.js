@@ -33,7 +33,7 @@ Router = function () {
   this.safeToRun = 0;
 
   // Meteor exposes to the client the path prefix that was defined using the
-  // ROOT_URL environement variable on the server using the global runtime
+  // ROOT_URL environment variable on the server using the global runtime
   // configuration. See #315.
   this._basePath = __meteor_runtime_config__.ROOT_URL_PATH_PREFIX || '';
 
